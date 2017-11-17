@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+
+<!-- It is critical that ALL templates within a template class follow the same precedence
+     and order in node layout. For the slide type 0 node, it is critical that the container
+	 type "text" node always goes before the container type "image" node. -->
+
+<templateData templateClass="Pres" classID="class 1.0">
+	<template slideType="0" description="Slide Type 0; 1 Text-Box, 1 Graphic">
+		<containerName slideLayer="foreground" containerType="image" containerID="foregroundGraphicA.ieImage"/>
+		<containerName slideLayer="presentation" containerType="text" containerID="textContentA.ieText"/>
+		<containerName slideLayer="presentation" containerType="image" containerID="imageContentA.ieImage"/>
+	</template>
+	<template slideType="1" description="Slide Type 1; 1 Text-Box">
+		<containerName slideLayer="foreground" containerType="image" containerID="foregroundGraphicA.ieImage"/>
+		<containerName slideLayer="presentation" containerType="text" containerID="textContentA.ieText"/>
+	</template>
+	<template slideType="2" description="Slide Type 2; 1 Graphic">
+		<containerName slideLayer="foreground" containerType="image" containerID="foregroundGraphicA.ieImage"/>
+		<containerName slideLayer="presentation" containerType="image" containerID="imageContentA.ieImage"/>
+	</template>
+	<template slideType="3" description="Slide Type 3; 2 Text-Boxes">
+		<containerName slideLayer="foreground" containerType="image" containerID="foregroundGraphicA.ieImage"/>
+		<containerName slideLayer="presentation" containerType="text" containerID="textContentA.ieText"/>
+		<containerName slideLayer="presentation" containerType="text" containerID="textContentB.ieText"/>
+	</template>
+	<template slideType="4" description="Slide Type 4; 2 Graphics">
+		<containerName slideLayer="foreground" containerType="image" containerID="foregroundGraphicA.ieImage"/>
+		<containerName slideLayer="presentation" containerType="image" containerID="imageContentA.ieImage"/>
+		<containerName slideLayer="presentation" containerType="image" containerID="imageContentB.ieImage"/>
+	</template>
+</templateData>
